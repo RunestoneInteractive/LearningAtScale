@@ -25,11 +25,15 @@ Introduction
    codelens.rst
    video.rst
    mchoice.rst
-   parsons.rst
+
+..   parsons.rst
+
    disqus.rst
    
-   stats.rst
-   editing.rst
+..   stats.rst
+..   editing.rst
+
+   thanks.rst
    
    
 

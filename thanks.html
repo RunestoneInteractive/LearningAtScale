@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Disqus Comment Box &mdash; Learning At Scale</title>
+    <title>Thank You &mdash; Learning At Scale</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -239,7 +239,10 @@
           <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
   <ul class="dropdown-menu localtoc"><ul>
-<li><a class="reference internal" href="#">Disqus Comment Box</a></li>
+<li><a class="reference internal" href="#">Thank You</a><ul>
+<li><a class="reference internal" href="#links">Links</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -270,46 +273,17 @@
 
 <div class="container">
   
-  <div class="section" id="disqus-comment-box">
-<h1>Disqus Comment Box<a class="headerlink" href="#disqus-comment-box" title="Permalink to this headline">¶</a></h1>
-<script type="text/javascript">
-    function a77ed6163c254612b0d649034b261659_disqus(source) { 
-        if (window.DISQUS) {
-
-            $('#disqus_thread').insertAfter(source); //put the DIV for the Disqus box after the link
-
-            //if Disqus exists, call it's reset method with new parameters
-            DISQUS.reset({
-                reload: true,
-                config: function () {
-                    this.page.identifier = 'a77ed6163c254612b0d649034b261659_' + eBookConfig.course;
-                    this.page.url = 'http://a77ed6163c254612b0d649034b261659_'+eBookConfig.course+'.interactivepython.com/#!';
-                }
-            });
-
-        } else {
-            //insert a wrapper in HTML after the relevant "show comments" link
-            $('<div id="disqus_thread"></div>').insertAfter(source);
-
-            // set Disqus required vars
-            disqus_shortname = 'interactivepython';    
-            disqus_identifier = 'a77ed6163c254612b0d649034b261659_' + eBookConfig.course;
-            disqus_url = 'http://a77ed6163c254612b0d649034b261659_'+eBookConfig.course+'.interactivepython.com/#!';
-
-            //append the Disqus embed script to HTML
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            $('head').append(dsq);
-
-        }
-    }
-</script>
-
-<a href="#disqus_thread" class='disqus_thread_link' data-disqus-identifier="a77ed6163c254612b0d649034b261659" onclick="a77ed6163c254612b0d649034b261659_disqus(this);">Show Comments</a>
-<script type='text/javascript'>
-    $("a[data-disqus-identifier='a77ed6163c254612b0d649034b261659']").attr('data-disqus-identifier', 'a77ed6163c254612b0d649034b261659_' + eBookConfig.course);
-</script>
-<p><a class="reference external" href="http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/simpledata.html#exercises">A Real discussion:</a></p>
+  <div class="section" id="thank-you">
+<h1>Thank You<a class="headerlink" href="#thank-you" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://runestoneinteractive.org">http://runestoneinteractive.org</a></li>
+<li><a class="reference external" href="http://interactivepython.org">http://interactivepython.org</a></li>
+<li><a class="reference external" href="https://github.com/RunestoneInteractive/RunestoneTools">https://github.com/RunestoneInteractive/RunestoneTools</a></li>
+<li><a class="reference external" href="http://runestoneinteractive.org/LearningAtScale">http://runestoneinteractive.org/LearningAtScale</a></li>
+</ul>
+</div>
 </div>
 
 
