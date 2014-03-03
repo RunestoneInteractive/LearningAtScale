@@ -55,7 +55,7 @@ Fill in the Blank
 CodeLens Questions
 ~~~~~~~~~~~~~~~~~~
 
-.. reveal:: rev3
+.. reveal:: rev4
 
     .. codelens:: codelens_question
         :question: What is the value of tot after the line with the red arrow executes?
