@@ -26,7 +26,6 @@ Introduction
    video.rst
    mchoice.rst
    disqus.rst
-   parsons.rst
    thanks.rst
 
 
