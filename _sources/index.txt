@@ -25,7 +25,6 @@ Introduction
    codelens.rst
    video.rst
    mchoice.rst
-   parsons.rst
    disqus.rst
    thanks.rst
 
