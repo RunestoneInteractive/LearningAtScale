@@ -17,3 +17,9 @@ A Demo in Two Parts
   * `interactivepython.org <http://interactivepython.org>`_
   
 * The Toolkit -- Runestone Interactive
+
+
+The Script
+~~~~~~~~~~
+
+* `Our Script for this demo <script.html>`_
