@@ -13,10 +13,8 @@ The CodeLens Tool
     zeros[1] = fruit
     zeros[1][2] = numlist
 
-
-
-..    def myfun(someList, a):
+    def myfun(someList, a):
       someList[1][2] = a
           
-..    myfun(zeros,"strawberry")
+    myfun(zeros,"strawberry")
     
